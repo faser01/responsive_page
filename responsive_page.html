@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Адаптивная вёрстка сайта</title>
+  <link rel="stylesheet" type="text/css" href="responsive_page.css">
+</head>
+<body>
+	<header>
+		<nav class="container">
+		  <a class="logo" >
+			<span>L</span>
+			<span>O</span>
+			<span>G</span>
+			<span>O</span>
+		  </a>
+		  <div class="nav-toggle"><span></span></div>
+		  <form action="" method="get" id="searchform">
+			<input type="text" placeholder="Поиск...">
+			<button type="submit"><i class="search"></i></button>
+		  </form>
+		  <ul id="menu">
+			<li><a href="">Блог</a></li>
+			<li><a href="">Портфолио</a></li>
+			<li><a href="">Об авторе</a></li>
+		  </ul>
+		</nav>
+	  </header>
+	  <div class="container">
+		<div class="posts-list">
+		  <article id="post-1" class="post">
+			<div class="post-image"><a href=""><img src="осень.jpg"></a></div>
+			<div class="post-content">
+			  <div class="category"><a href="">Времена года</a></div>
+			  <h2 class="post-title">Осень</h2>
+			  <p>Осень в жизни – это время, когда мы наслаждаемся результатами наших трудов и стараний, а так же решаем, как ими распорядиться, каких сохранить, как этими «плодами» поделиться с окружающими.
+             В это время мы потихоньку сбавляем темп жизни, готовясь к «зиме».</p>
+			  <div class="post-footer">
+				<a class="more-link" href="">Продолжить чтение</a>
+				
+			  </div>
+			</div>
+		  </article>
+		  <article id="post-2" class="post">
+			....
+		  </article>
+		</div> <!-- конец div class="posts-list"-->
+		<aside>
+			<div class="widget">
+			  <h3 class="widget-title">Категории</h3>
+			  <ul class="widget-category-list">
+				<li><a href="">Времена года</a> (2)</li>
+				<li><a href="">Природные явления</a> (5)</li>
+				<li><a href="">Видео</a> (1)</li>
+			  </ul>
+			</div>
+			<div class="widget">
+			  <h3 class="widget-title">Последние записи</h3>
+			  <ul class="widget-posts-list">
+				<li>
+				  <div class="post-image-small">
+					<a href=""><img src="весна.jpg"></a>
+				  </div>
+				  <h4 class="widget-post-title">Весна</h4>
+				</li>
+				<li>
+				  <div class="post-image-small">
+					<a href=""><img src="лето.jpg"></a>
+				  </div>
+				  <h4 class="widget-post-title">Лето</h4>
+				</li>
+				<li>
+				  <div class="post-image-small">
+					<a href=""><img src="осень.jpg"></a>
+				  </div>
+				  <h4 class="widget-post-title">Осень</h4>
+				</li>
+			  </ul>
+			</div>
+			<div class="widget">
+			  <h3 class="widget-title">Подписка на рассылку</h3>
+			  <form action="" method="post" id="subscribe">
+				<input type="email" name="email" placeholder="Ваш email" required>
+				<button type="submit"><i class="paper-plane"></i></button>
+			  </form>
+			</div>
+		  </aside>
+		  </div> <!-- конец div class="container"-->
+		  <footer>
+			<div class="container">
+			  <div class="footer-col"><span>Руслан Абишев 2023г</span></div>
+			</div>
+		  </footer>
+		  </body>
+		  </html>
